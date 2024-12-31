@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+.van-car-1{
+    margin: 50px 180px 20px 180px;
+    display: flex;
+    border: 1px solid rgb(177, 174, 174);
+    
+}
+
+.van-car-2{
+    margin: 20px 180px 20px 180px;
+    display: flex;
+    border: 1px solid rgb(177, 174, 174);
+}
+
+.van-car-3{
+    margin: 20px 180px 20px 180px;
+    display: flex;
+    border: 1px solid rgb(177, 174, 174);
+}
+
+.van-car-4{
+    margin: 20px 180px 20px 180px;
+    display: flex;
+    border: 1px solid rgb(177, 174, 174);
+}
+
+
+img:hover{
+    scale: 0.9;
+}
+
+.van-car-3 img{
+    height: 180px;
+    width: 290px;
+}
+
+.van-car-4 img{
+    height: 170px;
+    width: 290px;
+}
+
+
+.car-name{
+    margin-top: 50px;
+    margin-left: 90px;
+    text-align: center;
+}
+
+
+.car-name button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(226, 223, 223);
+    border: 1px solid rgb(107, 106, 106);
+    border-radius: 5px;
+    align-items: center;
+}
+
+button:hover{
+    scale: 1.1;
+}
+
+.feature-car-1{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.feature-car-2{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.feature-car-3{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.feature-car-4{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+

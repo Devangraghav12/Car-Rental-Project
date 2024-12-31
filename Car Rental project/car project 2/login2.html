@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Register</title>
+    <link rel="stylesheet" href="login2.css">
+    <link rel="stylesheet" href="save.php">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Login Form -->
+        <div class="form-container" id="login-form">
+          <h2>Login</h2>
+          <form action="save.php" method="post">
+            <div class="input-group">
+              <label for="login-email">Email</label>
+              <input type="email" id="login-email" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+              <label for="login-password">Password</label>
+              <input type="password" id="login-password" placeholder="Enter your password" required>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <p>Don't have an account? <a href="#" onclick="showRegister()">Register</a></p>
+          </form>
+        </div>
+    
+        <!-- Register Form -->
+        <div class="form-container hidden" id="register-form">
+          <h2>Register</h2>
+          <form>
+            <div class="input-group">
+              <label>Name</label>
+              <input type="text" name="name" id="" placeholder="Enter your name" required>
+            </div>
+            <div class="input-group">
+              <label>Email</label>
+              <input type="email" name="email" id="" placeholder="Enter your email" required>
+            </div>
+            <div class="input-group">
+              <label>Password</label>
+              <input type="password" name="password" id="" placeholder="Create a password" required>
+            </div>
+            <button type="submit" class="btn">Register</button>
+            <p>Already have an account? <a href="#" onclick="showLogin()">Login</a></p>
+          </form>
+        </div>
+      </div>
+    
+      <script>
+        function showLogin() {
+          document.getElementById('login-form').classList.remove('hidden');
+          document.getElementById('register-form').classList.add('hidden');
+        }
+    
+        function showRegister() {
+          document.getElementById('register-form').classList.remove('hidden');
+          document.getElementById('login-form').classList.add('hidden');
+        }
+      </script>
+    
+</body>
+</html>

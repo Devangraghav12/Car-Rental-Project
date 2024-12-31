@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.login{
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    margin: 30px;
+    text-align: center;
+}
+
+.login h1{
+    margin: 40px 10px 10px 10px;
+    text-transform: uppercase;
+}
+
+.login p{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+}
+
+.login p a{
+    text-decoration: none;
+    color: rgb(247, 9, 9);
+
+}
+
+.login input{
+    height: 27px;
+    width: 300px;
+    background-color: rgb(223, 220, 220);
+    border: gray;
+    cursor: pointer;
+}
+
+#password{
+    margin-top: 15px;
+}

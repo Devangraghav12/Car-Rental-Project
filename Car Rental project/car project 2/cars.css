@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.cars-type{
+    margin: 20px;
+}
+
+h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.about-cars > .car-type-1 >a{
+    margin-top: 20px;
+}
+
+.cars-type p{
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.about-cars{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    text-align: center;
+}
+
+p{
+    line-height: 22px;
+    letter-spacing: 0.4px;
+}
+
+img{
+    height: 210px;
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(50, 19, 230);
+    font-weight: bold;
+}

@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+.city-car-1{
+    margin: 50px 180px 20px 180px;
+    display: flex;
+    border: 1px solid rgb(177, 174, 174);
+    
+}
+
+.city-car-2{
+    margin: 20px 180px 20px 180px;
+    display: flex;
+    border: 1px solid rgb(177, 174, 174);
+}
+
+.city-car-3{
+    margin: 20px 180px 20px 180px;
+    display: flex;
+    border: 1px solid rgb(177, 174, 174);
+}
+
+.city-car-4{
+    margin: 20px 180px 20px 180px;
+    display: flex;
+    border: 1px solid rgb(177, 174, 174);
+}
+
+.city-car-5{
+    margin: 20px 180px 20px 180px;
+    display: flex;
+    border: 1px solid rgb(177, 174, 174);
+}
+
+.city-car-5 img{
+    height: 210px;
+    width: 360px;
+}
+
+img:hover{
+    scale: 0.9;
+}
+
+.car-name{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.car-name button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 5px 15px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(226, 223, 223);
+    border: 1px solid rgb(107, 106, 106);
+    border-radius: 5px;
+    align-items: center;
+}
+
+button:hover{
+    scale: 1.1;
+}
+
+.feature-car-1{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.feature-car-2{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.feature-car-3{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.feature-car-4{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.feature-car-5{
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 90px;
+}

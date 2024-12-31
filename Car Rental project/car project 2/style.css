@@ -1,0 +1,414 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(car-12.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background: transparent;
+    border-bottom: 1px solid rgb(105, 104, 104);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 70px;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: brush script mt;
+    color: whitesmoke;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    margin: 30px;
+    color: white;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+a:hover{
+    color: black;
+}
+
+nav ul li a:hover{
+    text-decoration: dotted;
+    color: red;
+    line-height-step: 3;
+}
+
+button{
+    font-size: 15px;
+    margin-right: 70px;
+    padding: 7px 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background-color: rgb(75, 74, 74);
+}
+
+button a{
+    color: white;
+    font-family: sans-serif;
+}
+
+.heading-1{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 50px; 
+}
+
+span{
+    color: rgb(179, 176, 176);
+    text-transform: capitalize;
+}
+
+.form-container form{
+    width: 48%;
+    height: 100px;
+    display: flex;
+    flex-wrap: nowrap; 
+    align-items: center;
+    gap: 1.8rem;
+    position: absolute;
+    bottom: 9rem;
+    left: 15px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 0.5rem;
+
+}
+
+.input-box span{
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.form-container .input-box input{
+    background-color: #dedfe0;
+    border: none;
+    outline: none;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #fff;
+    background-color: rgb(78, 75, 75);
+    padding: 7px 15px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+}
+
+.content{
+    margin-top: 15px;
+    margin-left: 100px;
+    font-size: 20px;
+    color: rgb(179, 176, 176);
+}
+
+
+/** login **/
+
+.wrapper{
+    margin-left: 800px;
+    margin-top: -100px;
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background:yellow;
+    border: 2px solid rgba(255, 255, 255, 5);
+    border-radius: 20px;
+    backdrop-filter: blue(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper .form-box{
+    width: 100px;
+    padding: 40px;
+
+}
+
+.form-box h2{
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+
+.input-box label{
+    position: relative;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #162938;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #162938;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #162938;
+    line-height: 57px;
+}
+
+
+/** ride **/
+
+.ride{
+    margin-top: 430px;
+}
+
+.ride h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.ride span{
+    color: rgb(83, 82, 82);
+    font-weight: bolder;
+}
+
+.ride-content{
+    display: flex;
+}
+
+.ride-content p{
+    margin-top: 100px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-transform: lowercase;
+}
+
+.ride-content h1{
+    text-align: center;
+    color: rgb(65, 64, 64);
+}
+
+.ride-content img{
+    width: 400px;
+    
+}
+
+
+/**services**/
+
+
+
+.cars-type{
+    margin-top: 80px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.cars-type span{
+    color: rgb(105, 104, 104);
+    font-weight: bolder;
+}
+
+.cars-type h1{
+    margin: 20px;
+}
+
+.cars-type p{
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.services{
+    margin-top: 120px;
+    background-color: rgb(236, 234, 234);
+}
+
+h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding-top: 30px;
+}
+
+.services > .car-type-1 >a{
+    margin-top: 20px;
+}
+
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px 10px 0px;
+    text-align: center;
+}
+
+p{
+    margin-bottom: 20px;
+    letter-spacing: 0.4px;
+}
+
+.services img{
+    height: 210px;
+    width: 300px;
+}
+
+.services img:hover{
+    scale: 1.1;
+}
+
+.services a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(50, 19, 230);
+    font-weight: bold;
+    background-color: gray;
+    padding: 5px 15px;
+    border: 1px solid rgb(110, 110, 110);
+    border-radius: 5px;
+}
+
+
+/** why rise? **/
+
+.why-rise{
+    text-align: center;
+    background-color: rgb(236, 234, 234);
+    padding-top: 30px;
+}
+
+.why-rise h2{
+    text-transform: uppercase;
+}
+
+.why{
+    display: flex;
+    justify-content: space-around; 
+    text-align: center;
+    margin: 0px 0px 80px 0px;
+    padding: 40px 20px 60px 20px;
+}
+
+.why p{
+    text-transform: capitalize;
+}
+
+.why img{
+    height: 80px;
+    width: 80px;
+}
+
+
+/** footer **/
+
+footer{
+    height: 280px;
+    width: 100%;
+    background-color: rgb(70, 68, 68);
+    display: flex;
+}
+
+.footer img{
+    padding: 40px 20px 0px 10px;
+    height: 220px;
+    width: 500px;
+}
+
+.contact-us{
+    color: white;
+    margin-top: 50px;
+}
+
+.contact-us h3{
+    text-transform: uppercase;
+}
+
+.contact-us span{
+    margin-top: 15px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.policy{
+    margin: 50px;
+}
+
+.policy h3{
+    color: white;
+    text-transform: uppercase;
+}
+
+.policy a{
+    color: white;
+    display: block;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+.quick-menu{
+    margin: 50px 70px 70px 30px;
+}
+
+.quick-menu h3{
+    color: white;
+    text-transform: uppercase;
+}
+
+.quick-menu a{
+    color: white;
+    display: block;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+
+
+
+
+
+
